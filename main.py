@@ -19,7 +19,7 @@ def print_n(s,n):
     return 0
 
 def run():
-  n = int(input("Enter an int: \n"))
+  n = int(input("Enter an int: "))
   print(f"sum is {sum_n(n)}.")
   s = str(input("Enter a string: \n"))
   print_n(s,n)
